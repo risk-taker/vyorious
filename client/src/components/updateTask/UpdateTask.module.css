@@ -1,0 +1,51 @@
+.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 2rem; */
+}
+.card {
+  width: 450px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 32px;
+  margin-top: -235px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.addBtn {
+  background-color: #1976d2;
+  color: white;
+  padding: 8px 9px;
+  border-radius: 20px;
+  margin-left: 16px;
+}
+.addBtn:hover {
+  background-color: #1a5188;
+}
+.text {
+  width: 381px;
+  border: none;
+  padding: 9px;
+  margin-bottom: 32px;
+  font-size: large;
+}

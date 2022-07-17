@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.logoWrapper :last-child {
+  margin-left: 6px;
+}
+.link {
+  background-color: #1976d2;
+  padding: 6px 14px;
+  font-size: large;
+  color: white;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.link:hover {
+  background-color: #2162a3;
+}
+.btn {
+  border: 2px solid #1976d2;
+  color: #1976d2;
+  padding: 4px 8px;
+  background-color: white;
+  font-size: large;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #82b7eb;
+  color: white;
+}
